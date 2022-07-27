@@ -60,7 +60,12 @@ class DialView @JvmOverloads constructor(
         }
         updateContentDescription()
 
-        /** Optional TalkBack Accessibility **/
+        /** Optional TalkBack Accessibility
+         * Note : for emulator and in some older devices "Accessibility" is unavailable,
+         *        you need to download the "Google Accessibility Suite" app
+         *        from Google Play Store (The Play Store needs to be enabled
+         *        for the virtual device)
+         **/
         /**
             ViewCompat.setAccessibilityDelegate(this, object : AccessibilityDelegateCompat() {
                 override fun onInitializeAccessibilityNodeInfo(
