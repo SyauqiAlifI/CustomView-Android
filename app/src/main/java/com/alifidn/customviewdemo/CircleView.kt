@@ -1,3 +1,4 @@
+/*
 package com.alifidn.customviewdemo
 
 import android.content.Context
@@ -32,4 +33,4 @@ class CircleView(ctx: Context, attr: AttributeSet) : View(ctx, attr){
     //  onDraw() => Dipanggil ketika tampilan harus melakukan render konten-nya
     //  onKeyDown() => Dipanggil ketika ada sebuah event key down baru saja terjadi
     //  on
-}
+}*/
