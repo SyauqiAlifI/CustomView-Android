@@ -83,7 +83,7 @@ class DialView @JvmOverloads constructor(
         */
     }
 
-    /** isClickable = true **/ // Other Method of isClickable
+    // Other Method of isClickable
     override fun isClickable(): Boolean {
         if (super.isClickable()) return true
         invalidate()
